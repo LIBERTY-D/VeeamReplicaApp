@@ -24,7 +24,7 @@ FileReplicaApp is a command-line application that periodically synchronizes file
 1. Clone the repository or download the source code.
 
     ```bash
-    git clone 
+    git clone https://github.com/LIBERTY-D/VeeamReplicaApp.git
     ```
 
 2. Navigate to the FileReplicaApp app by first going into the VeeamReplicaApp folder
