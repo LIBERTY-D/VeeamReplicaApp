@@ -53,7 +53,7 @@ FileReplicaApp is a command-line application that periodically synchronizes file
 The application requires the following arguments to be passed when running:
 
  ```bash
-dotnet run <intervalSeconds> <sourceDir> <replicaDir> <logFile>
+dotnet  Program.cs <intervalSeconds> <sourceDir> <replicaDir> <logFile>
 ```
 
 - `<intervalSeconds>`: The interval (in seconds) between each synchronization cycle.
@@ -64,7 +64,7 @@ dotnet run <intervalSeconds> <sourceDir> <replicaDir> <logFile>
 ### Example:
 
 ```bash
-dotnet run 5 source replica "sync_log.txt"
+dotnet run Program.cs 5 source replica "sync_log.txt"
 ```
 
 # Dependencies
